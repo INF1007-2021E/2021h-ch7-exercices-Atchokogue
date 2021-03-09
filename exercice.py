@@ -28,5 +28,4 @@ if __name__ == '__main__':
     # TODO: Appelez vos fonctions ici
     mass_vol = VoletMasseEllipsoide(a=8, mv=2)
     print(mass_vol)
-    d = lambda x: (sorted(frequence(x), key=frequence(x).__getitem__)[-1])("test test test test")
-    print(d)
+    (lambda x: sorted(frequence(x), key=frequence(x).__getitem__)[-1])("test test test test test")
